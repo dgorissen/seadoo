@@ -19639,6 +19639,7 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <wire x1="7.62" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
 <junction x="7.62" y="60.96"/>
+<label x="2.54" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOT-_TO_DRAIN" class="1">
@@ -19662,6 +19663,7 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <pinref part="FUSE" gate="G$1" pin="3"/>
 <wire x1="-35.56" y1="60.96" x2="-35.56" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-35.56" y="60.96"/>
+<label x="-43.18" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="1">

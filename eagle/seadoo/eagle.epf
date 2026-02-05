@@ -271,6 +271,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:199"
 UsedLibrary="/home/dgorissen/Downloads/capacitors-electrolytic.lbr"
 UsedLibrary="/home/dgorissen/Downloads/LIB_59170-1-S-00-D/59170-1-S-00-D/EAGLE/59170-1-S-00-D.lbr"
 UsedLibrary="/home/dgorissen/Downloads/LIB_3557-2/3557-2/EAGLE/3557-2.lbr"
+UsedLibrary="/home/dgorissen/Downloads/LIB_1.5KE27A/1.5KE27A/EAGLE/1.5KE27A.lbr"
 
 [Win_1]
 Type="Control Panel"

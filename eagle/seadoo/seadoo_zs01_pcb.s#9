@@ -19633,8 +19633,12 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <wire x1="-7.62" y1="48.26" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="0" y1="60.96" x2="0" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="NET_TIE" gate="G$1" pin="2"/>
-<wire x1="0" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="0" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
 <junction x="0" y="60.96"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<wire x1="7.62" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="50.8" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
+<junction x="7.62" y="60.96"/>
 </segment>
 </net>
 <net name="MOT-_TO_DRAIN" class="1">
@@ -19668,23 +19672,23 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="GND" gate="G$1" pin="P"/>
-<wire x1="-50.8" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="17.78" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
 <label x="-20.32" y="17.78" size="1.778" layer="95"/>
 <pinref part="NET_TIE1" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="7.62" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="17.78" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
+<junction x="7.62" y="17.78"/>
 </segment>
 </net>
-<net name="N$3" class="1">
+<net name="N$3" class="2">
 <segment>
 <wire x1="93.98" y1="33.02" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="17.78" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 <junction x="33.02" y="17.78"/>
-<wire x1="33.02" y1="17.78" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="7.62" y1="43.18" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
-<junction x="7.62" y="17.78"/>
+<wire x1="33.02" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="53.34" y1="48.26" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
@@ -19693,8 +19697,6 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <wire x1="106.68" y1="25.4" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
 <junction x="106.68" y="25.4"/>
-<pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="119.38" y1="25.4" x2="119.38" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="17.78" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
 <label x="45.72" y="15.24" size="1.778" layer="95"/>
@@ -19702,6 +19704,8 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <wire x1="93.98" y1="30.48" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
 <junction x="93.98" y="30.48"/>
 <junction x="93.98" y="25.4"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="119.38" y1="30.48" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="2">
@@ -19713,21 +19717,13 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <wire x1="40.64" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <label x="35.56" y="63.5" size="1.778" layer="95"/>
 <wire x1="40.64" y1="81.28" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="60.96" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 <junction x="40.64" y="60.96"/>
 <pinref part="NET_TIE" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$2" class="2">
-<segment>
 <pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="60.96" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="55.88" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="2">
-<segment>
-<pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="60.96" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
+<junction x="33.02" y="60.96"/>
 </segment>
 </net>
 </nets>

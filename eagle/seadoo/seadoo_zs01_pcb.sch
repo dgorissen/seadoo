@@ -19469,6 +19469,79 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 </deviceset>
 </devicesets>
 </library>
+<library name="1.5KE27A">
+<description>&lt;1500 W, 23.1 V TVS in DO-201&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="DIOAD2920W106L900D505">
+<description>&lt;b&gt;DO-201&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.25" diameter="1.875" shape="square"/>
+<pad name="2" x="29.2" y="0" drill="1.25" diameter="1.875"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.188" y1="2.875" x2="30.387" y2="2.875" width="0.05" layer="51"/>
+<wire x1="30.387" y1="2.875" x2="30.387" y2="-2.875" width="0.05" layer="51"/>
+<wire x1="30.387" y1="-2.875" x2="-1.188" y2="-2.875" width="0.05" layer="51"/>
+<wire x1="-1.188" y1="-2.875" x2="-1.188" y2="2.875" width="0.05" layer="51"/>
+<wire x1="10.1" y1="2.525" x2="19.1" y2="2.525" width="0.1" layer="51"/>
+<wire x1="19.1" y1="2.525" x2="19.1" y2="-2.525" width="0.1" layer="51"/>
+<wire x1="19.1" y1="-2.525" x2="10.1" y2="-2.525" width="0.1" layer="51"/>
+<wire x1="10.1" y1="-2.525" x2="10.1" y2="2.525" width="0.1" layer="51"/>
+<wire x1="10.1" y1="0" x2="12.625" y2="2.525" width="0.1" layer="51"/>
+<wire x1="0" y1="0" x2="10.1" y2="0" width="0.1" layer="51"/>
+<wire x1="19.1" y1="0" x2="29.2" y2="0" width="0.1" layer="51"/>
+<wire x1="10.1" y1="2.525" x2="19.1" y2="2.525" width="0.2" layer="21"/>
+<wire x1="19.1" y1="2.525" x2="19.1" y2="-2.525" width="0.2" layer="21"/>
+<wire x1="19.1" y1="-2.525" x2="10.1" y2="-2.525" width="0.2" layer="21"/>
+<wire x1="10.1" y1="-2.525" x2="10.1" y2="2.525" width="0.2" layer="21"/>
+<wire x1="10.1" y1="0" x2="12.625" y2="2.525" width="0.2" layer="21"/>
+<wire x1="1.288" y1="0" x2="10.1" y2="0" width="0.2" layer="21"/>
+<wire x1="19.1" y1="0" x2="27.912" y2="0" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1.5KE27A">
+<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.032" x2="6.096" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.032" x2="5.08" y2="2.032" width="0.254" layer="94"/>
+<wire x1="4.064" y1="2.54" x2="5.08" y2="2.032" width="0.254" layer="94"/>
+<text x="10.16" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="10.16" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="middle"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1.5KE27A" prefix="D">
+<description>&lt;b&gt;1500 W, 23.1 V TVS in DO-201&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.st.com/resource/en/datasheet/1-5ke100ca.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="1.5KE27A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIOAD2920W106L900D505">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="1500 W, 23.1 V TVS in DO-201" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1.5KE27A" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-1.5KE27A" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/1.5KE27A?qs=m4gxtLzGBzrDoABe76ebWA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19496,13 +19569,13 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/3" package3d_urn="urn:adsk.eagle:package:5433/1" value="10nF"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="TO220H" package3d_urn="urn:adsk.eagle:package:43370/1" value="VT4045BP-M3/4W"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="TT5D11" package3d_urn="urn:adsk.eagle:package:23309/1" value="1000mF"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="D-12.5" package3d_urn="urn:adsk.eagle:package:43427/1" value="1.5KE27A"/>
 <part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BH" package3d_urn="urn:adsk.eagle:package:29490/1" value="IRFB7430PBF"/>
 <part name="S1" library="59170-1-S-00-D" deviceset="59170-1-S-00-D" device=""/>
 <part name="S2" library="59170-1-S-00-D" deviceset="59170-1-S-00-D" device=""/>
 <part name="FUSE" library="3557-2" deviceset="3557-2" device=""/>
 <part name="NTG" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1218" package3d_urn="urn:adsk.eagle:package:26131/2" value="0"/>
 <part name="NT+" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1218" package3d_urn="urn:adsk.eagle:package:26131/2" value="0"/>
+<part name="D2" library="1.5KE27A" deviceset="1.5KE27A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19553,10 +19626,6 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <attribute name="NAME" x="8.763" y="48.7426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="8.763" y="43.6626" size="1.778" layer="96"/>
 </instance>
-<instance part="D2" gate="G$1" x="53.34" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.8574" y="53.34" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="55.6514" y="53.34" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="Q1" gate="G$1" x="127" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="124.46" y="50.8" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="127" y="50.8" size="1.778" layer="96" rot="R90"/>
@@ -19580,6 +19649,10 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <instance part="NT+" gate="G$1" x="20.32" y="60.96" smashed="yes">
 <attribute name="NAME" x="16.51" y="62.4586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.51" y="57.658" size="1.778" layer="96"/>
+</instance>
+<instance part="D2" gate="G$1" x="53.34" y="53.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.99" y="48.26" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="57.15" y="50.8" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -19692,8 +19765,6 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <wire x1="33.02" y1="17.78" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 <junction x="33.02" y="17.78"/>
 <wire x1="33.02" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="53.34" y1="48.26" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="25.4" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
@@ -19709,14 +19780,15 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="119.38" y1="30.48" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="NTG" gate="G$1" pin="2"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="53.34" y1="38.1" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
+<junction x="53.34" y="25.4"/>
 </segment>
 </net>
 <net name="N$7" class="2">
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="53.34" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <label x="35.56" y="63.5" size="1.778" layer="95"/>
 <wire x1="40.64" y1="81.28" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
@@ -19727,6 +19799,8 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <wire x1="33.02" y1="55.88" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 <junction x="33.02" y="60.96"/>
 <pinref part="NT+" gate="G$1" pin="2"/>
+<pinref part="D2" gate="G$1" pin="K"/>
+<wire x1="53.34" y1="60.96" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -19477,7 +19477,7 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="POWER" width="1.778" drill="0.508">
+<class number="1" name="POWER" width="2.032" drill="0.508">
 <clearance class="1" value="0.508"/>
 </class>
 <class number="2" name="SIGNAL" width="0.1524" drill="0.1524">

@@ -19677,7 +19677,7 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt; Datasheet 
 <pinref part="NET_TIE1" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="7.62" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="17.78" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="43.18" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
 <junction x="7.62" y="17.78"/>
 </segment>
 </net>
